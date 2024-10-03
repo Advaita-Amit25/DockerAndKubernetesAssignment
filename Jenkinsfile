@@ -15,7 +15,7 @@ pipeline {
             steps {
                 script {
                     // Build Docker image with a tag
-                    sh 'docker build -t pannamrajesh/spring-boot-app .'
+                    sh 'docker build -t amitsaini01/spring-boot-app .'
                 }
             }
         }
@@ -23,8 +23,8 @@ pipeline {
             steps {
                 script {
                     // Run Docker container
-                    // pannamrajesh is a repoistory/imagename
-                    sh 'docker run -d -p 8081:8080 pannamrajesh/spring-application'
+                    // amitsaini01 is a repoistory/imagename
+                    sh 'docker run -d -p 8081:8080 amitsaini01/spring-application'
                 }
             }
         }

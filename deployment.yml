@@ -30,7 +30,7 @@ spec:
 
       - name: spring-app-kubernetes
 
-        image: pannamrajesh/my-spring-boot-application:latest  # Docker image from Docker Hub
+        image: amitsaini01/my-spring-boot-application:latest  # Docker image from Docker Hub
 
         ports:
 
